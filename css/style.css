@@ -1,0 +1,157 @@
+@import url(reset.css);
+body {
+	background: #fff;
+	height: 1020px;
+	color: #4c4c4c;
+	font-family: Tahoma, Verdana, sans-serif;
+	font-size: 14px;
+	line-height: 1.5em;
+	width: 1200px;
+	margin: 0 auto;
+	}
+#wrapper {
+	width: 1070px;
+	height: 1020px;
+	margin: 0 auto;
+	padding: 0px 0px 0 130px;
+	background:
+					url(../images/bg_mask.png) repeat, 
+					url(../images/bg.jpg) no-repeat;
+	position: relative;
+	}
+header {
+	width: 180px;
+	height: 120px;
+	background-color: #fff; 
+	padding-left: 40px;
+	padding-top: 25px;
+	opacity: 0.98;
+}
+header a {
+	text-decoration: none;
+	color: #4c4c4c;
+}
+#logo h1{
+	font-size: 40px;
+	line-height: 1.5em;
+}
+#logo h1 span#green_dot {
+	color: #86b11e;
+}
+#logo p, div#counter, span#copyright {
+	cursor: default;
+}
+main #title_1 {
+	width: 130px;
+	padding: 12px 0;
+	text-align: center;
+	background-color: #6e6e6d;
+	color: #fff;
+	font-size: 30px;
+	margin-top: 85px;
+	opacity: 0.98;
+	cursor: default;
+}
+main #title_2 {
+	width: 273px;
+	padding: 14px 0px;
+	text-align: center;
+	background-color: #fff;
+	font-size: 18px;
+	opacity: 0.98;
+	cursor: default;
+}
+aside#slideshow {
+	width: 157px;
+	background-color: #fff;
+	position: absolute;
+	top: 0;
+	right: 130px;
+	padding: 20px 14px 0 14px;
+	line-height: 0px;
+	opacity: 0.98;
+}
+div#counter {
+	float: right;
+	font-size: 12px;
+	padding-top: 5px;
+}
+input#pause{
+	float: left;
+}
+a.slade {
+	display: block;
+	width: 158px;
+	height: 124px;
+	margin-top: 16px;
+
+}
+.slade_gray {
+	width: 158px;
+	height: 124px;
+	background: rgba(110, 110, 109, 0.25);
+}
+.slade:hover .slade_gray, .slade.active .slade_gray {
+	display: none;
+}
+#slideshow a:first-of-type {
+	margin-top: 30px;
+}
+#slade1 {
+	background-image: url(../images/slade1.jpg);
+}
+#slade2 {
+	background-image: url(../images/slade2.jpg);
+}
+#slade3 {
+	background-image: url(../images/slade3.jpg);
+}
+#slade4 {
+	background-image: url(../images/slade4.jpg);
+}
+#slade5 {
+	background-image: url(../images/slade5.jpg);
+}
+#slade6 {
+	background-image: url(../images/slade6.jpg);
+}
+#slade7 {
+	background-image: url(../images/slade7.jpg);
+}
+#footer_main {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #fff;
+	padding: 16px 130px;
+	line-height: 1em;
+	opacity: 0.98;
+}
+
+#menu_footer li, #menu_footer {
+	display: inline-block;
+}
+#menu_footer li {
+	font-size: 18px;
+	text-transform: uppercase;
+	padding: 0;
+	margin: 0;
+	margin-right: 20px;
+}
+#menu_footer li:last-of-type {
+	margin-right: 290px;
+}
+#menu_footer a:link, #menu_footer a:visited {
+	text-decoration: none;
+	color: #4c4c4c;
+}
+#menu_footer li a:hover {
+	text-decoration: underline;
+}
+#menu_footer li.active a, #menu_footer a:active {
+	color: #86b11e;
+}
+span#copyright {
+	font-size: 10px;
+}
